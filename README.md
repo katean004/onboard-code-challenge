@@ -1,5 +1,5 @@
 # Onboard Coding Challenge
-![](https://i.gyazo.com/0e233a7b1c7791beff0656ef3536aae2.png | width=100)
+<img src="https://i.gyazo.com/0e233a7b1c7791beff0656ef3536aae2.png" width="100" height="120">
 
 ## Website
 - Deployed on Heroku: 
