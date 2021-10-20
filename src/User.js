@@ -15,24 +15,28 @@ class User extends Component {
     };
   }
 
-  componentDidMount() {
-    const data = {
-      id: 5,
-      profile: {
-        id: 5,
-        linkedin_url: "https://www.linkedin.com/company/onboardio/",
-        twitter_url: "https://www.twitter.com/onboardio/",
-        instagram_url: "https://www.instagram.com/onboardio/",
-        website_url: "https://onboard.io",
-        bio: "This is my tagline.",
-        job_title: "Title"
-      },
-      avatar: "https://assets.onboard.io/assets/a/5/5/fswnuakkcn.jpg",
-      first_name: "John",
-      last_name: "Smith",
-      name: "John Smith",
-      created_at: "2020-10-01T19:40:40Z"
-    };
+  async componentDidMount() {
+    // const data = {
+    //   id: 5,
+    //   profile: {
+    //     id: 5,
+    //     linkedin_url: "https://www.linkedin.com/company/onboardio/",
+    //     twitter_url: "https://www.twitter.com/onboardio/",
+    //     instagram_url: "https://www.instagram.com/onboardio/",
+    //     website_url: "https://onboard.io",
+    //     bio: "This is my tagline.",
+    //     job_title: "Title"
+    //   },
+    //   avatar: "https://assets.onboard.io/assets/a/5/5/fswnuakkcn.jpg",
+    //   first_name: "John",
+    //   last_name: "Smith",
+    //   name: "John Smith",
+    //   created_at: "2020-10-01T19:40:40Z"
+    // };
+
+    const url = "http://localhost:8000/users/5";
+    const response = await fetch(url);
+    const data = await response.json();
 
     this.setState({ userData: data, loading: false });
   }
