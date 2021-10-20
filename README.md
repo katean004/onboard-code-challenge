@@ -1,5 +1,5 @@
 # Onboard Coding Challenge
-![](https://i.gyazo.com/6e5af7dd3f4f274a8aac99e528443470.png)
+![](https://i.gyazo.com/0e233a7b1c7791beff0656ef3536aae2.png)
 
 ## Website
 - Deployed on Heroku: 
