@@ -1,0 +1,71 @@
+/* User component */
+.User {
+    background-color: #edf1f7;
+    width: 375px;
+    height: 412px;
+    border-radius: 5px;
+}
+
+/* Onboard logo */
+.User-onboard-logo {
+    margin: 40px auto 30px auto;
+}
+
+/* User data */
+.User-info {
+    background-color: #fff;
+    height: 140px;
+    width: 325px;
+    border-radius: 15px;
+    margin: 30px auto;
+    position: relative;
+    text-align: left;
+    box-shadow: 7px 10px 12px -5px rgba(0, 0, 0, 0.1);
+}
+
+.User-img {
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+}
+
+.User-info img {
+    position: absolute;
+    top: -35px;
+    left: 125px;
+}
+
+/* User name and bio */
+.User-text {
+    padding-top: 2.25rem;
+    padding-left: 2rem;
+    color: #1f307a;
+}
+
+.User-name {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.User-bio {
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+/* User social media */
+.User-socials {
+    display: flex;
+    width: 50%;
+    justify-content: space-evenly;
+    margin: 30px auto 0 auto;
+    position: relative;
+}
+
+.User-social-icon:hover {
+    filter: invert(39%) sepia(73%) saturate(742%) hue-rotate(153deg) brightness(102%) contrast(106%);
+}
+
+/* Footer and logo */
+.User-footer {
+    margin: 20px auto;
+}
